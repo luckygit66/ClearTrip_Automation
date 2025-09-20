@@ -3,7 +3,7 @@ const { stringify } = require('querystring');
 
 test('Login ClearTrip', async ({ page }) => {
   await page.goto("https://www.cleartrip.com/");
-  page.w
+  
   console.log(await page.title());
   await page.waitForSelector(".c-pointer.c-neutral-900[data-testid='closeIcon']");
   await page.locator(".c-pointer.c-neutral-900[data-testid='closeIcon']").click();
