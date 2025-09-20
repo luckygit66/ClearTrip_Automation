@@ -1,0 +1,16 @@
+{
+  "name": "cleartripautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cleartrip":"npx playwright test cleartriptests.spec.js --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.5.2"
+  }
+}
