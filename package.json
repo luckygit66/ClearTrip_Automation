@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "cleartrip":"npx playwright test tests/cleartriptests.spec.js",
-    "naukri":"npx playwright test tests/naukriTest.spec.js --headed"
+    "naukri":"npx playwright test tests/naukriTest.spec.js"
   },
   "keywords": [],
   "author": "",
