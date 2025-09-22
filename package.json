@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "cleartrip":"npx playwright test tests/cleartriptests.spec.js",
+    "cleartrip":"npx playwright test tests/cleartriptests.spec.js --headed",
     "naukri":"npx playwright test tests/naukriTest.spec.js --headed"
   },
   "keywords": [],
